@@ -1,0 +1,33 @@
+@import "@xyflow/react/dist/style.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f8fb;
+  color: #172033;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.react-flow__node {
+  border-radius: 8px;
+  border: 1px solid #d9e0ea;
+  background: #ffffff;
+  color: #172033;
+  box-shadow: 0 8px 24px rgba(23, 32, 51, 0.08);
+}
